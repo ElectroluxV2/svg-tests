@@ -7,8 +7,9 @@
         body {
             background-color: #000;
             margin: 0;
+            display: flex;
+            flex-wrap: wrap;
         }
-
     </style>
     <script>
         class V extends HTMLElement {
@@ -29,8 +30,8 @@
                         position: absolute;
                         left: 0;
                         top: 0;
-                        color: #00000070;
-                        background-color: #FFFFFF70;
+                        color: #FFFFFF70;
+                        background-color: #00000070;
                     }
                 `;
 
@@ -51,5 +52,10 @@
 <body>
     <v-box s="min.svg"></v-box>
     <v-box s="rect.svg"></v-box>
+    <v-box s="circle.svg"></v-box>
+    <v-box s="ellipse.svg"></v-box>
+    <v-box s="line.svg"></v-box>
+    <v-box s="polyline.svg"></v-box>
+    <v-box s="polygon.svg"></v-box>
 </body>
 </html>
